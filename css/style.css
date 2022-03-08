@@ -1,0 +1,53 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background: #30475E;
+}
+
+div.login {
+    text-align: center;
+    font-size: 10px;
+    color: #121212;
+    background: #F5F5F5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 100px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 20px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    background: #F05454;
+    color: white;
+    border: none;
+    border-radius: 40px;
+}
+
+button:hover {
+    cursor: pointer;
+    background: #F06464;
+}
+
+input {
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+a {
+    font-size: 13px;
+    color: #F05454;
+}
+
+a:hover {
+    color: #808B96;
+}
